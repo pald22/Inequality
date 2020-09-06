@@ -11,3 +11,8 @@ gini_analysis.ipynb - python notebook for coding purposes, need Anaconda
 
 gini_analysis.html - html webpage to view the code, need browser
 
+selection.xlsx - excel spreadsheets of all the countries analysed.
+
+Thank you for checking this out. 
+-Patrick
+
