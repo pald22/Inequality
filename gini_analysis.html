@@ -13319,7 +13319,7 @@ Copyright © 2020 Patrick Ledoit</p>
             <span class="c1">#trouble shoot</span>
             <span class="n">store</span> <span class="o">=</span> <span class="n">store</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;Country&#39;</span><span class="p">:</span><span class="n">i</span><span class="p">,</span><span class="s1">&#39;Start Year&#39;</span><span class="p">:</span><span class="n">start</span><span class="p">,</span><span class="s1">&#39;End Year&#39;</span><span class="p">:</span><span class="n">start</span><span class="o">+</span><span class="nb">len</span><span class="p">(</span><span class="n">frange</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;Length&#39;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">frange</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">},</span><span class="n">ignore_index</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
             
-    <span class="nb">print</span><span class="p">(</span><span class="n">store</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">store</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
     <span class="n">store</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;selection.xlsx&#39;</span><span class="p">)</span>
         
     <span class="k">return</span> <span class="n">corrs</span><span class="p">,</span><span class="n">country2</span><span class="p">,</span><span class="n">gdp</span><span class="p">,</span><span class="n">gini</span>
@@ -13368,20 +13368,12 @@ Copyright © 2020 Patrick Ledoit</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>                      Country Start Year End Year Length
-0                     Albania       1989     2016     27
-1                     Algeria       1968     1996     28
-2                   Argentina       1985     2003     18
-3                   Australia       1964     2016     52
-4                     Austria       1964     2016     52
-..                        ...        ...      ...    ...
-99   United States of America       1964     2016     52
-100                   Uruguay       1969     2013     44
-101                 Venezuela       1964     1999     35
-102                     Yemen       1999     2014     15
-103                  Zimbabwe       1964     1999     35
-
-[104 rows x 4 columns]
+<pre>     Country Start Year End Year Length
+0    Albania       1989     2016     27
+1    Algeria       1968     1996     28
+2  Argentina       1985     2003     18
+3  Australia       1964     2016     52
+4    Austria       1964     2016     52
 </pre>
 </div>
 </div>
