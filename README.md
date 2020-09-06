@@ -1,7 +1,7 @@
 # Inequality
 An analysis of correlation between Inequality and GDP
 
-There are four files in this repository:
+There are five files in this repository:
 
 gdp.xlsx - gdp data from Penn World Table - https://www.rug.nl/ggdc/productivity/pwt/?lang=en
 
